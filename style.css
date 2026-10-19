@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+img{
+    width: 100%;
+}
+.logo img{
+    width: 150px;
+    height: 150;
+
+}
+.logo{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    padding: 20px;
+}
+nav a{
+    text-transform: uppercase;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+
+    font-weight: bold;
+}
+nav a:first-of-type{
+    color: goldenrod;
+}
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    text-align: center;
+    padding: 40px;
+}
+h1{
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+.text button, .form button{
+    margin: 20px 0 0 0;
+    background-color: black;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+}
+.rooms{
+    display: flex;
+    width: 80%;
+    margin: 8px auto;
+}
+
+.rooms div{
+    width: 50%;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #f1f1f1;
+}
+
+.info{
+    text-align: center;
+}
+
+.reservation{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    
+}
+
+.form{
+    width: 50%;
+    padding: 20px;
+    margin: 0 10px;
+    background-color: #f1f1f1;
+}
+
+.form textarea{
+    width: 100%;
+    height: 100px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
